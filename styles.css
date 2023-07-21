@@ -1,0 +1,66 @@
+html {
+    font-size: 16px;
+}
+
+body {
+    background-color: rgb(44, 44, 44);
+}
+
+.white {
+    color:rgb(224, 220, 248);
+    letter-spacing: -0.03em;
+}
+
+.blue {
+    color: rgb(98, 98, 250);
+    letter-spacing: -0.03em;
+}
+
+.tick {
+    width: 200px;
+    height: 200px;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 200px;
+    font-family: Arial, sans-serif;
+    font-size: 3em;
+    color: #ffffff;
+}
+
+.list-group {
+    width: 50%;
+    margin: 25px auto;
+    background-color: #ffffff;
+    padding: 15px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+.list-group-item label {
+    background-color: rgb(255, 255, 255);
+    color:rgb(0, 0, 0);
+    font-size: 20px;
+}
+
+.btn.btn-primary.btn-lg {    
+    font-family: Arial, sans-serif;
+}
+
+.btn {
+    font-family: Arial, sans-serif;
+}
+
+.list-group-item > label:first-child {
+    font-weight: bold;
+  }
+
+#newTaskInput {
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: #f0f0f0;
+    width: 25%;
+}
+
